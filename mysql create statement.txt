@@ -1,0 +1,9 @@
+CREATE TABLE `location` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `latitude` float(10,6) DEFAULT NULL,
+  `longitude` float(10,6) DEFAULT NULL,
+  `coreid` varchar(24) DEFAULT NULL,
+  `datetime` datetime(3) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2463 DEFAULT CHARSET=latin1;
